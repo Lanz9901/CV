@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrés Lanziano — Web Developer & SEO Specialist</title>
+  <meta name="description" content="Web Developer and SEO Specialist based in Alcoy, Spain. I build sites that rank and convert." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">Andrés Lanziano</div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <div class="nav-links" id="nav-links">
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left reveal">
+      <div>
+        <div class="hero-eyebrow">Web Developer · SEO · Analytics</div>
+        <h1 class="hero-h1">Building sites<br>that <em>rank</em><br>&amp; convert.</h1>
+      </div>
+      <div class="hero-metrics">
+        <div class="metric">
+          <div class="metric-num counter" data-target="2">0<span>+</span></div>
+          <div class="metric-label">Live projects</div>
+        </div>
+        <div class="metric">
+          <div class="metric-num">Top <span>3</span></div>
+          <div class="metric-label">Google ranking</div>
+        </div>
+        <div class="metric">
+          <div class="metric-num">C<span>1</span></div>
+          <div class="metric-label">English level</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-right reveal reveal-delay-1">
+      <p class="hero-desc">I design and develop web experiences with measurable results — from top 3 Google rankings to real lead generation, from week one. Based in Alcoy, Spain.</p>
+      <div class="hero-btns">
+        <a href="#work" class="btn-primary">View my work</a>
+        <a href="CV_Andres_Lanziano.pdf" download class="btn-secondary">Download CV ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SELECTED WORK -->
+  <section class="selected-work" id="work">
+    <div class="section-header reveal">
+      <span class="section-title">Selected work</span>
+      <span class="section-count">02 projects</span>
+    </div>
+
+    <!-- PROJECT 1: dradianalanziano.com -->
+    <article class="proj reveal">
+      <div class="proj-name-row">
+        <h2 class="proj-name">dradianalanziano.com</h2>
+        <span class="proj-year">2026</span>
+      </div>
+      <p class="proj-client">Dra. Diana Lanziano — Periodontist &amp; Oral Surgeon · Bogotá, Colombia</p>
+
+      <!-- CAROUSEL -->
+      <div class="carousel-wrap">
+        <div class="carousel" id="carousel-1" role="region" aria-label="Project screenshots">
+          <div class="carousel-track" id="track-1">
+            <div class="carousel-slide"><img src="images/diana-1.jpg" alt="dradianalanziano.com — hero view" loading="eager" /></div>
+            <div class="carousel-slide"><img src="images/diana-2.jpg" alt="dradianalanziano.com — services section" loading="lazy" /></div>
+            <div class="carousel-slide"><img src="images/diana-3.jpg" alt="dradianalanziano.com — testimonials" loading="lazy" /></div>
+            <div class="carousel-slide"><img src="images/diana-4.jpg" alt="dradianalanziano.com — treatment page" loading="lazy" /></div>
+            <div class="carousel-slide"><img src="images/diana-5.jpg" alt="dradianalanziano.com — contact page" loading="lazy" /></div>
+          </div>
+        </div>
+        <button class="carousel-btn carousel-prev" data-carousel="1" aria-label="Previous slide">‹</button>
+        <button class="carousel-btn carousel-next" data-carousel="1" aria-label="Next slide">›</button>
+        <div class="carousel-dots" id="dots-1" role="tablist"></div>
+      </div>
+
+      <!-- METRICS — VERSIÓN 1: Big numbers animated -->
+      <div class="metrics-toggle">
+        <button class="mtog-btn active" data-target="m1-v1" data-group="m1">Metrics view 1</button>
+        <button class="mtog-btn" data-target="m1-v2" data-group="m1">Metrics view 2</button>
+      </div>
+
+      <!-- V1: Animated numbers -->
+      <div class="metrics-v1 metrics-panel active" id="m1-v1">
+        <div class="mv1-grid">
+          <div class="mv1-card">
+            <div class="mv1-num counter" data-target="85">0</div>
+            <div class="mv1-label">Total Users</div>
+            <div class="mv1-sub">Mar – May 2026</div>
+          </div>
+          <div class="mv1-card highlight">
+            <div class="mv1-num counter" data-target="11">0</div>
+            <div class="mv1-label">WhatsApp Clicks</div>
+            <div class="mv1-sub">9.24% conversion rate</div>
+          </div>
+          <div class="mv1-card">
+            <div class="mv1-num counter" data-target="119">0</div>
+            <div class="mv1-label">Sessions</div>
+            <div class="mv1-sub">50.42% engaged</div>
+          </div>
+          <div class="mv1-card">
+            <div class="mv1-num">2,607</div>
+            <div class="mv1-label">Search Impressions</div>
+            <div class="mv1-sub">Top 3 avg. position</div>
+          </div>
+          <div class="mv1-card">
+            <div class="mv1-num">1:11</div>
+            <div class="mv1-label">Avg. Engagement Time</div>
+            <div class="mv1-sub">per active user</div>
+          </div>
+          <div class="mv1-card">
+            <div class="mv1-num counter" data-target="46">0</div>
+            <div class="mv1-label">Organic Clicks</div>
+            <div class="mv1-sub">from Search Console</div>
+          </div>
+        </div>
+        <div class="mv1-bar-section">
+          <div class="mv1-bar-label">Traffic sources</div>
+          <div class="mv1-bars">
+            <div class="mv1-bar-row">
+              <span class="mv1-bar-name">Direct</span>
+              <div class="mv1-bar-track"><div class="mv1-bar-fill" style="--pct:45.2%"></div></div>
+              <span class="mv1-bar-val">38 users</span>
+            </div>
+            <div class="mv1-bar-row">
+              <span class="mv1-bar-name">Google Organic</span>
+              <div class="mv1-bar-track"><div class="mv1-bar-fill" style="--pct:29.8%"></div></div>
+              <span class="mv1-bar-val">25 users</span>
+            </div>
+            <div class="mv1-bar-row">
+              <span class="mv1-bar-name">Instagram</span>
+              <div class="mv1-bar-track"><div class="mv1-bar-fill" style="--pct:13.1%"></div></div>
+              <span class="mv1-bar-val">11 users</span>
+            </div>
+            <div class="mv1-bar-row">
+              <span class="mv1-bar-name">Facebook</span>
+              <div class="mv1-bar-track"><div class="mv1-bar-fill" style="--pct:4.8%"></div></div>
+              <span class="mv1-bar-val">4 users</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- V2: Dashboard cards -->
+      <div class="metrics-v2 metrics-panel" id="m1-v2">
+        <div class="mv2-header">
+          <div class="mv2-title">
+            <span class="mv2-icon">📊</span>
+            <div>
+              <div class="mv2-site">dradianalanziano.com</div>
+              <div class="mv2-period">1 Mar – 14 May 2026 · Google Analytics + Search Console</div>
+            </div>
+          </div>
+        </div>
+        <div class="mv2-kpi-row">
+          <div class="mv2-kpi">
+            <div class="mv2-kpi-val counter" data-target="85">0</div>
+            <div class="mv2-kpi-name">Users</div>
+          </div>
+          <div class="mv2-kpi">
+            <div class="mv2-kpi-val">50.4%</div>
+            <div class="mv2-kpi-name">Engagement rate</div>
+          </div>
+          <div class="mv2-kpi accent">
+            <div class="mv2-kpi-val">9.24%</div>
+            <div class="mv2-kpi-name">WA conversion</div>
+          </div>
+          <div class="mv2-kpi">
+            <div class="mv2-kpi-val">2.71</div>
+            <div class="mv2-kpi-name">Avg. position</div>
+          </div>
+        </div>
+        <div class="mv2-body">
+          <div class="mv2-col">
+            <div class="mv2-col-title">Top pages</div>
+            <div class="mv2-table">
+              <div class="mv2-row header"><span>Page</span><span>Views</span><span>Bounce</span></div>
+              <div class="mv2-row"><span>Home</span><span>86</span><span>44.9%</span></div>
+              <div class="mv2-row"><span>Periodoncia</span><span>11</span><span class="good">20%</span></div>
+              <div class="mv2-row"><span>Blog</span><span>12</span><span class="good">0%</span></div>
+              <div class="mv2-row"><span>Agenda tu Cita</span><span>10</span><span class="good">12.5%</span></div>
+            </div>
+          </div>
+          <div class="mv2-col">
+            <div class="mv2-col-title">Top keywords</div>
+            <div class="mv2-table">
+              <div class="mv2-row header"><span>Query</span><span>Pos.</span><span>Impr.</span></div>
+              <div class="mv2-row"><span>periodoncia</span><span class="good">2.71</span><span>535</span></div>
+              <div class="mv2-row"><span>implantes bogotá</span><span class="good">2.98</span><span>88</span></div>
+              <div class="mv2-row"><span>periodoncista</span><span class="good">2.54</span><span>56</span></div>
+              <div class="mv2-row"><span>periodoncista bogotá</span><span class="good">2.36</span><span>28</span></div>
+            </div>
+          </div>
+          <div class="mv2-col">
+            <div class="mv2-col-title">Device split</div>
+            <div class="mv2-donut-wrap">
+              <svg class="mv2-donut" viewBox="0 0 80 80">
+                <circle class="donut-bg" cx="40" cy="40" r="30" />
+                <circle class="donut-seg seg-mobile" cx="40" cy="40" r="30" stroke-dasharray="104.9 83.2" stroke-dashoffset="23.6" />
+                <circle class="donut-seg seg-desktop" cx="40" cy="40" r="30" stroke-dasharray="80.7 107.4" stroke-dashoffset="-81.3" />
+                <circle class="donut-seg seg-tablet" cx="40" cy="40" r="30" stroke-dasharray="2.6 185.5" stroke-dashoffset="-162" />
+              </svg>
+              <div class="mv2-legend">
+                <div class="mv2-legend-item"><span class="dot mobile"></span>Mobile 55.7%</div>
+                <div class="mv2-legend-item"><span class="dot desktop"></span>Desktop 42.9%</div>
+                <div class="mv2-legend-item"><span class="dot tablet"></span>Tablet 1.4%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-info">
+        <div class="info-col">
+          <div class="info-label">Objective</div>
+          <p class="info-val">Full web presence to attract local patients via organic search</p>
+        </div>
+        <div class="info-col">
+          <div class="info-label">Result</div>
+          <p class="info-result">Top 3 on Google for competitive keywords within weeks. Real leads generated via WhatsApp from week one.</p>
+        </div>
+        <div class="info-col">
+          <div class="info-label">Stack</div>
+          <div class="tags">
+            <span class="tag">WordPress</span>
+            <span class="tag">GA4</span>
+            <span class="tag">GTM</span>
+            <span class="tag">Looker Studio</span>
+            <span class="tag">Yoast SEO</span>
+            <span class="tag">Search Console</span>
+          </div>
+        </div>
+        <div class="info-col info-col-cta">
+          <div class="info-label">&nbsp;</div>
+          <a href="https://dradianalanziano.com" target="_blank" rel="noopener" class="see-live">See it live ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- PROJECT 2: draelianagonzalez.com -->
+    <article class="proj reveal">
+      <div class="proj-name-row">
+        <h2 class="proj-name">draelianagonzalez.com</h2>
+        <span class="proj-year">2026</span>
+      </div>
+      <p class="proj-client">Dra. Eliana González — Internist &amp; Gastroenterologist · Bogotá, Colombia</p>
+
+      <!-- CAROUSEL -->
+      <div class="carousel-wrap">
+        <div class="carousel" id="carousel-2" role="region" aria-label="Project screenshots">
+          <div class="carousel-track" id="track-2">
+            <div class="carousel-slide"><img src="images/eliana-1.jpg" alt="draelianagonzalez.com — hero view" loading="eager" /></div>
+            <div class="carousel-slide"><img src="images/eliana-2.jpg" alt="draelianagonzalez.com — specialties section" loading="lazy" /></div>
+            <div class="carousel-slide"><img src="images/eliana-3.jpg" alt="draelianagonzalez.com — about section" loading="lazy" /></div>
+          </div>
+        </div>
+        <button class="carousel-btn carousel-prev" data-carousel="2" aria-label="Previous slide">‹</button>
+        <button class="carousel-btn carousel-next" data-carousel="2" aria-label="Next slide">›</button>
+        <div class="carousel-dots" id="dots-2" role="tablist"></div>
+      </div>
+
+      <div class="proj-info">
+        <div class="info-col">
+          <div class="info-label">Objective</div>
+          <p class="info-val">Professional presence &amp; visibility in local search from day one</p>
+        </div>
+        <div class="info-col">
+          <div class="info-label">Result</div>
+          <p class="info-result">Indexed and visible from day one. Local presence via Google My Business established immediately.</p>
+        </div>
+        <div class="info-col">
+          <div class="info-label">Stack</div>
+          <div class="tags">
+            <span class="tag">WordPress</span>
+            <span class="tag">Yoast SEO</span>
+            <span class="tag">Search Console</span>
+            <span class="tag">Google My Business</span>
+          </div>
+        </div>
+        <div class="info-col info-col-cta">
+          <div class="info-label">&nbsp;</div>
+          <a href="https://draelianagonzalez.com" target="_blank" rel="noopener" class="see-live">See it live ↗</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section" id="skills">
+    <div class="section-header reveal">
+      <span class="section-title">Skills &amp; tools</span>
+    </div>
+    <div class="skills-table reveal">
+      <div class="skill-col">
+        <div class="skill-col-title">Development</div>
+        <div class="skill-item">HTML &amp; CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">WordPress</div>
+        <div class="skill-item">Git · Netlify</div>
+      </div>
+      <div class="skill-col">
+        <div class="skill-col-title">SEO &amp; Analytics</div>
+        <div class="skill-item">Google Analytics 4</div>
+        <div class="skill-item">Search Console</div>
+        <div class="skill-item">Ahrefs</div>
+        <div class="skill-item">Looker Studio</div>
+      </div>
+      <div class="skill-col">
+        <div class="skill-col-title">Marketing</div>
+        <div class="skill-item">Google Ads</div>
+        <div class="skill-item">Meta Ads</div>
+        <div class="skill-item">Email Marketing</div>
+        <div class="skill-item">CRO · Copywriting</div>
+      </div>
+      <div class="skill-col">
+        <div class="skill-col-title">Design &amp; AI</div>
+        <div class="skill-item">Affinity Designer</div>
+        <div class="skill-item">Canva · CapCut</div>
+        <div class="skill-item">Claude · ChatGPT</div>
+        <div class="skill-item">Supermetrics</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-left reveal">
+      <h2 class="contact-h">Let's build<br>something that<br><em>actually works.</em></h2>
+    </div>
+    <div class="contact-right reveal reveal-delay-1">
+      <p class="contact-sub">Open to freelance projects and full-time roles. Remote-first. Based in Alcoy, Spain. English C1.</p>
+      <div class="contact-btns">
+        <a href="mailto:alanzianob1201@gmail.com" class="contact-btn-p">Get in touch</a>
+        <a href="https://linkedin.com/in/andres-lanzianob" target="_blank" rel="noopener" class="contact-btn-s">LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span class="footer-t">Andrés Lanziano · 2026</span>
+    <span class="footer-t">alanzianob1201@gmail.com</span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
